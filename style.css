@@ -1,0 +1,63 @@
+body {
+    color: maroon;
+    background-color: whitesmoke;
+}
+
+.header-info {
+    text-align: right;
+
+
+}
+
+.flexbox-page {
+    display:flex; 
+    flex-wrap: stretch;
+    justify-content: left;
+    border: 2px solid black;
+
+}
+
+.subheading-info {
+    flex-wrap: wrap;
+    border: 2px solid black;
+    text-align: right;
+    
+
+
+}
+.leftside-aboutme-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(216, 4, 4);
+
+
+}
+.subheading-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(69, 185, 16);
+
+
+}
+.subheading-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(214, 30, 184);
+
+
+}
+.subheading-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(48, 143, 160);
+
+
+}
+.subheading-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(95, 110, 67);
+
+
+}
+.subheading-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(55, 250, 217);
+
+
+}
