@@ -57,6 +57,21 @@ nav a {
     width: 550px;
     height: 550px;
     max-width: 550px;
+    background-image:
+      url("./Assets/img/collab-pic.jpg");
+    background-color: transparent;
+
+}
+.leftside-info2 {
+    flex-wrap: wrap;
+    border: 2px solid rgb(255, 255, 255);
+    width: 550px;
+    height: 550px;
+    max-width: 550px;
+    background-image:
+      url("./Assets/img/led lights.jpg");
+  background-color: transparent;
+
 }
 
 .rightside-info {
@@ -65,6 +80,21 @@ nav a {
     width: 550px;
     height: 550px; 
     justify-content: right;
+    background-image:
+      url("./Assets/img/skillsntrade.jpg");
+  background-color: transparent;
+
+
+}
+.rightside-info2 {
+    flex-wrap: wrap;
+    border: 2px solid rgb(255, 255, 255);
+    width: 550px;
+    height: 550px; 
+    justify-content: right;
+    background-image:
+      url("./Assets/img/working-pic.jpg");
+  background-color: transparent;
 
 
 }
