@@ -1,21 +1,38 @@
 body {
-    color: maroon;
-    background-color: whitesmoke;
+    color: rgb(243, 243, 243);
+    background-color: rgb(100, 27, 27);
 }
 
 .header-info {
     text-align: right;
+    /* border-image: round; */
+    /* width: 1000px; */
+    /* height: 300px; */
+    color: whitesmoke;
 
 
 }
 
-.flexbox-page {
-    display:flex; 
-    flex-wrap: stretch;
-    justify-content: left;
-    border: 2px solid black;
+header {
+    text-align: left;
 
 }
+.header-image { 
+    height: 250px;
+    align-items: left;
+
+
+}
+
+nav a {
+    margin: 10px;
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
 
 .subheading-info {
     flex-wrap: wrap;
@@ -25,12 +42,38 @@ body {
 
 
 }
-.leftside-aboutme-info {
+
+.big-page-flexbox {
+    display:flex; 
+    flex-wrap: stretch;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+
+.leftside-info {
     flex-wrap: wrap;
-    border: 2px solid rgb(216, 4, 4);
+    border: 2px solid rgb(255, 255, 255);
+    width: 550px;
+    height: 550px;
+}
+
+.rightside-info {
+    flex-wrap: wrap;
+    border: 2px solid rgb(255, 255, 255);
+    width: 550px;
+    height: 550px; 
+    justify-content: right;
 
 
 }
+
+.leftsidebox {
+    border: 3px solid rgb(25, 8, 85);
+    height:550px;
+    width:550px;
+}
+
 .subheading-info {
     flex-wrap: wrap;
     border: 2px solid rgb(69, 185, 16);
@@ -59,5 +102,12 @@ body {
     flex-wrap: wrap;
     border: 2px solid rgb(55, 250, 217);
 
+
+}
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 768px) {
 
 }
